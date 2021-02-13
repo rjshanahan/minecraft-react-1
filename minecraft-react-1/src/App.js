@@ -18,7 +18,7 @@ function App() {
       <Physics gravity={[0, -30, 0]}>
         <Ground position={[0, 0.5, 0]} />
         <Player position={[0, 3, 10]} />
-        <Cubes />
+        <Cubes />wwww
       </Physics>
     </Canvas>
   );

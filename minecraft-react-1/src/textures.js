@@ -1,0 +1,28 @@
+import dirtImg from './images/dirt.jpg';
+import grassImg from './images/grass.jpg';
+import glassImg from './images/glass.png';
+import logImg from './images/log.jpg';
+import woodImg from './images/wood.png';
+import sirenheadImg from './images/sirenhead.jpg';
+import cartooncatImg from './images/cartooncat.jpg';
+import winnieImg from './images/winnie.jpg';
+import fossImg from './images/foss.jpg';
+import joeImg from './images/joe.jpg';
+import minseokImg from './images/minseok.jpg';
+import jamieImg from './images/jamie.jpg';
+import diemImg from './images/diem.jpg';
+import { TextureLoader } from 'three';
+
+export const dirt = new TextureLoader().load(dirtImg);
+export const grass = new TextureLoader().load(grassImg);
+export const glass = new TextureLoader().load(glassImg);
+export const wood = new TextureLoader().load(woodImg);
+export const log = new TextureLoader().load(logImg);
+export const sirenhead = new TextureLoader().load(sirenheadImg);
+export const cartooncat = new TextureLoader().load(cartooncatImg);
+export const winnie = new TextureLoader().load(winnieImg);
+export const foss = new TextureLoader().load(fossImg);
+export const joe = new TextureLoader().load(joeImg);
+export const minseok = new TextureLoader().load(minseokImg);
+export const jamie = new TextureLoader().load(jamieImg);
+export const diem = new TextureLoader().load(diemImg);

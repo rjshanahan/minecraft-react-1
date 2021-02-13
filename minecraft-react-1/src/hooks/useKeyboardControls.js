@@ -19,6 +19,14 @@ function textureByKey(key) {
     Digit3: 'glass',
     Digit4: 'wood',
     Digit5: 'log',
+    // KeyR: 'joe',
+    // KeyM: 'minseok',
+    // KeyJ: 'jamie',
+    // KeyC: 'diem',
+    Digit6: 'sirenhead',
+    Digit7: 'cartooncat',
+    Digit8: 'winnie',
+    Digit9: 'foss',
   };
   return keys[key];
 }
